@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\Github Local repos\\HazardNet\\sri_lanka_disaster_ml\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "a4a3a24f8796226672a66ced9afe820476abc430106acdc07f40e8a6fe25b118",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

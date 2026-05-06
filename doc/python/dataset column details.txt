@@ -1,0 +1,19 @@
+-----------------------------------for flood dataset 
+
+latitude
+longitude
+elevation_m
+distance_to_river_m
+landcover
+soil_type
+population_density_per_km2
+built_up_percent
+urban_rural
+rainfall_7d_mm
+monthly_rainfall_mm
+drainage_index
+ndvi
+ndwi
+historical_flood_count
+infrastructure_score
+flood_occurrence_current_event   ← TARGET

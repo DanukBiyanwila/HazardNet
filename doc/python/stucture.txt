@@ -1,0 +1,32 @@
+sri_lanka_disaster_ml/
+│
+├── app/
+│   ├── main.py                   # FastAPI / API entrypoint
+│   ├── model_loader.py           # Load both flood & landslide models
+│   ├── schemas.py                # Pydantic schemas for API
+│   │
+│   ├── routes/
+│   │     └── prediction_routes.py  # API endpoints for flood/landslide
+│   │
+│   ├── services/
+│   │     └── prediction_service.py # Calls ML prediction functions
+│   │
+│   └── utils/
+│         └── preprocess.py      # Data cleaning, encoding, scaling
+│
+├── models/
+│   ├── landslide_model.pkl
+│   └── flood_model.pkl
+│
+├── training/
+│   ├── train_landslide.py
+│   ├── train_flood.py
+│   ├── landslide_dataset.csv
+│   └── flood_dataset.csv        # 32 columns dataset
+│
+├── processed_data/
+│   ├── flood_dataset_cleaned.csv
+│   └── landslide_dataset_cleaned.csv
+│
+├── requirements.txt
+└── README.md
